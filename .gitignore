@@ -1,3 +1,9 @@
+# Project Specific #
+####################
+data/
+vectorstore/
+.env
+
 # Compiled source #
 ###################
 *.com
