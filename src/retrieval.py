@@ -1,6 +1,6 @@
 from vectorstore import load_vector_store
 
-def retrieve_relevant_chunks(query: str, top_k: int = 5, distance_threshold: float = 1.6):
+def retrieve_relevant_chunks(query: str, top_k: int = 3, distance_threshold: float = 1.6):
     """
     Retrieves the top-k relevant document chunks with a distance threshold (L2).
     A lower score means more relevant.
