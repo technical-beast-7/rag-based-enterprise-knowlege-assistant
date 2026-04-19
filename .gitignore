@@ -43,6 +43,7 @@ Thumbs.db
 *.swp
 *.swo
 *~
+.env
 
 # Node.js #
 ###########
