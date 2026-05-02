@@ -26,7 +26,7 @@ def load_pdfs(data_path: str = None, file_paths: List[str] = None) -> List[Docum
     
     return documents
 
-def split_documents(documents: List[Document], chunk_size: int = 1000, chunk_overlap: int = 100) -> List[Document]:
+def split_documents(documents: List[Document], chunk_size: int = 500, chunk_overlap: int = 50) -> List[Document]:
     """
     Splits documents into smaller chunks for processing.
     """
